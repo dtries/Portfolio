@@ -1,0 +1,19 @@
+ /* .main-container {
+    background: url("../images/Sunset_Clouds.png");
+    background-size: cover;
+} */
+
+body {
+    width: 100vw;
+    background: url("../images/Sunset_Clouds.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+
+
+nav {  
+    padding-top: 5%;
+    padding-bottom: 11%;
+}
