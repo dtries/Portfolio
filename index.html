@@ -15,32 +15,43 @@
     <!-- CSS Link Materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
+    <!-- Link for Material Design Icons from Google -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!-- CSS Style Sheet Link -->
     <link rel="stylesheet" href="./assets/css/portfolio.style.css">
 
 </head>
 
 <body>
+    <script>document.body.className += ' fade-out';</script>
+
     <div class="container">
         <!-- Page Content -->
         <div class="main-content">
             <!-- Navigation Bar -->
-            <nav>
+            <nav class="z-depth-0 ">
                 <div class="nav-wrapper">
                 <a href="index.html" title="Dennis Ries" class="brand-logo"><img src="./assets/images/DTR_Logo.png" alt="Logo"></a>
+                <a href="index.html" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a class="active" href="index.html">PORTFOLIO</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                 </ul>
                 </div>
             </nav>
+
+            <ul class="sidenav right z-depth-0" id="mobile-demo">
+                    <li><a class="active" href="index.html"><span class="white-text">PORTFOLIO</span></a></li>
+                    <li><a href="about.html"><span class="white-text">ABOUT</span></a></li>
+            </ul>
         </div>
     </div>
 
 
     <!---------- Script Source Tags ----------------->
     <!-- jQuery JavaScript Library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
 
     <!-- Materialize Javascript Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>

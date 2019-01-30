@@ -5,15 +5,31 @@
 
 body {
     width: 100vw;
-    background: url("../images/Sunset_Clouds.png");
+    background: url("../images/clouds_sunset.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
+
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
 }
 
 
 nav {  
     padding-top: 5%;
     padding-bottom: 11%;
+    background-color: rgba(0, 0, 0, 0);
 }
+
+.sidenav {
+    background-color: rgba(0, 0, 0, 0); 
+    
+}
+
+
