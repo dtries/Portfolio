@@ -111,6 +111,11 @@ nav {
     padding: 0;
 }
 
+.card-action {
+    font-weight: bold;
+
+}
+
 .footer-copyright {
     text-align: center;
     font-size: 200%;
