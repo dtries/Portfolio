@@ -1,0 +1,79 @@
+
+html { 
+        background-color: #F35C01;  
+}
+
+.main-content {
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+#Pic-and-Overview {
+    padding-top: 5%;
+    color: white;
+}
+
+#overview,
+#overview-mobile {
+    margin-top: -5%;
+    text-align: left;
+    color: white;
+}
+
+
+.main-tag-about {
+    font-size: 150%;
+    line-height: 1.5;
+}
+
+.contact-info,
+.contact-info-mobile,
+.contact-tag-line,
+.contact-tag-line-mobile,
+.my-resume,
+.my-resume-mobile,
+#resume {
+    font-size: 150%;
+    line-height: 1.5;
+}
+
+#resume,
+#resume-mobile {
+    color: #00255A;
+}
+
+#main-about-mobile {
+    font-size: 200%;
+}
+#main-tag-about-mobile {
+    font-size: 150%;
+    line-height: 1.5;
+}
+
+nav {  
+    position: sticky;
+    top: 0;
+    padding-top: 2%;
+    padding-bottom: 11%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.sidenav {
+    background-color: rgba(0, 0, 0, 0); 
+    
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 200%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #F35C01;
+    color: white;
+}
+

@@ -1,16 +1,19 @@
- /* .main-container {
-    background: url("../images/Sunset_Clouds.png");
-    background-size: cover;
-} */
 
-body {
-    width: 100vw;
-    background: url("../images/clouds_sunset.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+html { 
+        background: url(../images/clouds_sunset.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
 
+.main-container {
+    position: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main-content {
     opacity: 1;
     transition: 1s opacity;
 }
@@ -20,9 +23,44 @@ body.fade-out {
     transition: none;
 }
 
+#Pic-and-Overview {
+    padding-top: 5%;
+    color: white;
+}
+
+#overview,
+#overview-mobile {
+    text-align: center;
+    color: white;
+}
+
+#main-name {
+    padding-top: 8%;
+}
+
+.main-tag-line {
+    font-size: 150%;
+    line-height: 1.5;
+}
+
+#asterisk-line,
+#asterisk-line-mobile {
+    line-height: 1.5;
+}
+
+#main-name-mobile {
+    font-size: 300%;
+}
+#main-tag-line-mobile {
+    font-size: 100%;
+    font-weight: 600;
+    line-height: 1.5;
+}
 
 nav {  
-    padding-top: 5%;
+    position: sticky;
+    top: 0;
+    padding-top: 2%;
     padding-bottom: 11%;
     background-color: rgba(0, 0, 0, 0);
 }
@@ -30,6 +68,75 @@ nav {
 .sidenav {
     background-color: rgba(0, 0, 0, 0); 
     
+}
+
+#see-below-section {
+    text-align: center;
+    margin-top: -5%;
+    /* padding-top: 10%; */
+  }
+
+#see-below {
+    color: white;
+    font-size: 1000%;
+    transform: scaleY(0.5);
+ }
+
+#hello-section {
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: white;
+}
+
+#main-hello {
+    width: 70%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+#portfolio-section {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+#card-keeper {
+    width: 70%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.card-title {
+    background-color: #00000040;
+    padding: 0;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 200%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #F35C01;
+    color: white;
+}
+
+
+@media only screen and (max-width: 900px) {
+#portfolio-section {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+@media only screen and (max-width: 600px) {
+#portfolio-section {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+}
+
+@media only screen and (max-width: 400px) {
+#portfolio-section {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
 }
 
 

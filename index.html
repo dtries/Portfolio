@@ -26,8 +26,10 @@
 <body>
     <script>document.body.className += ' fade-out';</script>
 
-    <div class="container">
-        <!-- Page Content -->
+    
+
+    <div class="container main-container">
+        <!-- Splash Area Page Content -->
         <div class="main-content">
             <!-- Navigation Bar -->
             <nav class="z-depth-0 ">
@@ -45,8 +47,167 @@
                     <li><a class="active" href="index.html"><span class="white-text">PORTFOLIO</span></a></li>
                     <li><a href="about.html"><span class="white-text">ABOUT</span></a></li>
             </ul>
+
+            <div class="row" id="Pic-and-Overview">
+                <div class="col s6" id="stylized-picture">
+                    <a href="index.html" title="Profile Pic" id="professional-image"><img src="./assets/images/Stylized_Profile4.jpg" alt="Stylized-Pic"></a>
+                </div>
+
+                <div class="col s6 hide-on-small-only" id="overview">
+                        <span class="overview-text">
+                            <h1 id="main-name"> Dennis T. Ries*</h1> 
+                            <p class="main-tag-line">Tinkerer || Daydreamer ||</p> 
+                            <p class="main-tag-line">Web Developer</p>
+                            <p id="asterisk-line">*sometimes a bit sarcastic.</p>
+                        </span>
+                </div>
+            </div>
+
+            <div class="col s12 hide-on-med-and-up" id="overview-mobile">
+                    <span class="overview-text-mobile">
+                        <h1 id="main-name-mobile"> Dennis T. Ries</h1> 
+                        <p id="main-tag-line-mobile">Tinkerer || Daydreamer || Web Developer</p>
+                        <p id="asterisk-line-mobile">*sometimes a bit sarcastic.</p>
+                    </span>
+            </div>
+
+            <div class="col s12 m7">
+                <div class="row" id="see-below-section">
+                    <span class="more-below">
+                        <i class="material-icons" id="see-below">expand_more</i>
+                    </span>
+                </div>
+            </div>
         </div>
     </div>
+
+        <!-- Hello Area Page Content -->
+    </div class= "container hello-container">
+        <div class="row" id="hello-section">
+            <div class="col s12 " id="hello-text-row">
+                <span class="overview-text">
+                    <h5 class="center-align" id="main-hello"> Hi, I'm Dennis - a full stack web developer who enjoys exploring innovative ways to improve web-based experiences. I also like to make pizza and caramel rolls, but not at the same time.</h5>
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Projects Area Page Content -->
+    </div class= "container portfolio-container">
+        <div class="card" id="card-keeper">
+            <div class="row" id="portfolio-section">
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/images/Get_Out_and_Explore.jpg">
+                            <span class="card-title">Event Finder</span>
+                        </div>
+
+                        <div class="card-action">
+                            <a href="https://joshspeakman.github.io/Project-1/">The App</a>
+                            <a href="https://github.com/Joshspeakman/Project-1">The Code</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./assets/images/Which_Train_When.png">
+                                <span class="card-title">Train Schedules</span>
+                            </div>
+
+                            <div class="card-action">
+                                <a href="https://dtries.github.io/Train-Scheduler/">The App</a>
+                                <a href="https://github.com/dtries/Train-Scheduler">The Code</a>
+        
+                            </div>
+                        </div>
+                </div>
+
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/images/Far_East_Showdown.png">
+                            <span class="card-title">RPG</span>
+                        </div>
+
+                        <div class="card-action">
+                            <a href="https://dtries.github.io/unit-4-game/">The App</a>
+                            <a href="https://github.com/dtries/unit-4-game">The Code</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./assets/images/Hockey_Slang_Game.png">
+                            <span class="card-title">Word Guess</span>
+                        </div>
+
+                        <div class="card-action">
+                            <a href="https://dtries.github.io/Word-Guess-Game/">The App</a>
+                            <a href="https://github.com/dtries/Word-Guess-Game">The Code</a>
+    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./assets/images/Sitcom_Giphy_King.png">
+                                <span class="card-title">Sitcom Gifs</span>
+                            </div>
+    
+                            <div class="card-action">
+                                <a href="https://dtries.github.io/GifTastic-Sitcoms/">The App</a>
+                                <a href="https://github.com/dtries/GifTastic-Sitcoms">The Code</a>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./assets/images/Golbergs_Trivia_Game.png">
+                                <span class="card-title">Timed Trivia</span>
+                            </div>
+    
+                            <div class="card-action">
+                                <a href="https://dtries.github.io/TriviaGame/">The App</a>
+                                <a href="https://github.com/dtries/TriviaGame">The Code</a>
+        
+                            </div>
+                        </div>
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Area Content  -->
+    <footer class="footer-copyright">
+        <div class="container">
+            <p>© Dennis T. Ries 2019.</p>
+            <br>
+            <p>All Rights Reserved.</p>
+            <br>
+
+            <span class="footer-text"> 
+                <a class="linked-in" href="https://www.linkedin.com/in/dennis-ries/"><img src="./assets/images/linkedin_Icon.png"></a>
+                <a class="github" href="https://github.com/dtries"><img src="https://img.icons8.com/windows/52/000000/github.png"></a>
+            </span>
+        </div>
+    </footer>
+
+
 
 
     <!---------- Script Source Tags ----------------->
