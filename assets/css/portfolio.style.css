@@ -111,6 +111,19 @@ nav {
     padding: 0;
 }
 
+.card-content {
+    background-color: #F35C01;
+    color: white;
+    font-size: 110%;
+    /* font-weight: 900%; */
+    line-height: 1.5;
+}
+
+#content-description {
+    color: #351E3A;
+    font-weight: bold;
+}
+
 .card-action {
     font-weight: bold;
 
