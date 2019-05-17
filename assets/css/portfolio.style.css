@@ -139,6 +139,14 @@ nav {
 }
 
 
+
+@media only screen and (min-width: 901px) {
+    #portfolio-section {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        }
+    }
+
 @media only screen and (max-width: 900px) {
 #portfolio-section {
     display: grid;
