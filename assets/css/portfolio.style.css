@@ -142,8 +142,8 @@ nav {
 @media only screen and (max-width: 900px) {
 #portfolio-section {
     display: grid;
-    grid-template-columns: repeat(2, auto);
-}
+    grid-template-columns: repeat(1, auto);
+
 
 @media only screen and (max-width: 600px) {
 #portfolio-section {
